@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.PrimerTaller"},{"l":"com.PrimerTaller.config"},{"l":"com.PrimerTaller.controller"},{"l":"com.PrimerTaller.DTO"},{"l":"com.PrimerTaller.mappers"},{"l":"com.PrimerTaller.models"},{"l":"com.PrimerTaller.repositories"},{"l":"com.PrimerTaller.services"}];updateSearchResults();

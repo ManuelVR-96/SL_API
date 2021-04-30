@@ -1,0 +1,8 @@
+com.PrimerTaller
+com.PrimerTaller.config
+com.PrimerTaller.controller
+com.PrimerTaller.DTO
+com.PrimerTaller.mappers
+com.PrimerTaller.models
+com.PrimerTaller.repositories
+com.PrimerTaller.services

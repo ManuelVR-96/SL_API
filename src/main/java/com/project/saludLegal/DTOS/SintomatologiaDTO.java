@@ -1,0 +1,38 @@
+package com.project.saludLegal.DTOS;
+
+import java.io.Serializable;
+
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
+
+/**
+
+ * DTO para sintomas
+
+ * @author: Manuel Alejandro Verjan Robles
+
+ */
+public class SintomatologiaDTO implements Serializable {
+	
+	private static final long serialVersionUID = 1L;
+	
+	@NotNull(message="Id del sintoma es necesario")
+	private Long idSintomatologia;// id del sintoma
+	
+	@NotBlank(message="El sintoma debe llevar una descripcion")
+	private String descripcion;// descripcion del sintoma
+	
+	public Long getIdSintomatologia() {
+		return idSintomatologia;
+	}
+	public void setIdSintomatologia(Long idSintomatologia) {
+		this.idSintomatologia = idSintomatologia;
+	}
+	public String getDescripcion() {
+		return descripcion;
+	}
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+	
+}
